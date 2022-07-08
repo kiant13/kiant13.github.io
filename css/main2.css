@@ -8,7 +8,8 @@
 }
 
 .irfan{
-  font-size: 30px;
+  font-size: 25px;
+  color: white;
 }
 
 html {
@@ -105,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   color: white;
   padding: 15px 30px !important;
-  margin-right: 20px;
+  margin-right: 0px;
 }
 
 .navbar li .nav-link:hover {
@@ -187,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .img img {
-  width: 110%;
+  width: 95%;
 }
 
 #about {
@@ -331,32 +332,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #skills .skills-progress .skill-wrapper.progress-64 .progress .left-side {
-  -webkit-transform: rotate(230deg);
-          transform: rotate(230deg);
-}
-
-#skills .skills-progress .skill-wrapper.progress-75 .progress {
-  clip: rect(auto, auto, auto, auto);
-}
-
-#skills .skills-progress .skill-wrapper.progress-75 .progress .right-side {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-#skills .skills-progress .skill-wrapper.progress-75 .progress .left-side {
   -webkit-transform: rotate(270deg);
           transform: rotate(270deg);
 }
-
-#skills .skills-progress .skill-wrapper.progress-46 .progress .right-side {
+#skills .skills-progress .skill-wrapper.progress-75 .progress .right-side {
   display: none;
 }
 
-#skills .skills-progress .skill-wrapper.progress-46 .progress .left-side {
+#skills .skills-progress .skill-wrapper.progress-75 .progress .left-side {
   -webkit-transform: rotate(162deg);
-          transform: rotate(162deg);
+          transform: rotate(142deg);
 }
+
 
 #skills .skills-progress .skill-wrapper.progress-85 .progress {
   clip: rect(auto, auto, auto, auto);
@@ -372,6 +359,19 @@ h1, h2, h3, h4, h5, h6 {
           transform: rotate(306deg);
 }
 
+#skills .skills-progress .skill-wrapper.progress-46 .progress {
+  clip: rect(auto, auto, auto, auto);
+}
+
+#skills .skills-progress .skill-wrapper.progress-46 .progress .right-side {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+#skills .skills-progress .skill-wrapper.progress-46 .progress .left-side {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(230deg);
+}
 #experience {
   padding: 50px 0px;
 }
